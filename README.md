@@ -1,8 +1,8 @@
 # FreezeKiller
 
 ## The UI & Icon
-![image](public/FreezeKiller/FreezeKiller/res/FreezeKiller.ico)
-![image](public/img/UI.png)
+![image](FreezeKiller/res/FreezeKiller.ico)
+![image](img/UI.png)
 
 
 ## English Introduction
@@ -67,11 +67,11 @@ Visual Studio 2022 + WDK10.0.26100.6584 + MFC
 
 
 ## 附加一：如何禁用驱动程序强制签名   Appendix 1: How to Disable Driver Signature Enforcement
-![image](public/img/img1.png)
-![image](public/img/img2.png)
-![image](public/img/img3.png)
-![image](public/img/img4.png)
-![image](public/img/img5.png)
+![image](img/img1.png)
+![image](img/img2.png)
+![image](img/img3.png)
+![image](img/img4.png)
+![image](img/img5.png)
 
 ## 附加二 本工具界面的中英对译
 Will be updated later
