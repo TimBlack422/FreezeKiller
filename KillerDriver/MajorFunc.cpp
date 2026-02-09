@@ -260,7 +260,7 @@ NTSTATUS EnableDeepFrz(bool isEnable)
 		__except (1) {
 			ObDereferenceObject(deepFrzDrvobj);
 			ObDereferenceObject(dfDiskLoDrvobj);
-			ObReferenceObject(farSpaceDrvObj);
+			ObDereferenceObject(farSpaceDrvObj);
 			return STATUS_DRIVER_INTERNAL_ERROR;
 		}
 
@@ -352,7 +352,7 @@ NTSTATUS EnableDeepFrz(bool isEnable)
 
 	ObDereferenceObject(deepFrzDrvobj);
 	ObDereferenceObject(dfDiskLoDrvobj);
-	ObReferenceObject(farSpaceDrvObj);
+	ObDereferenceObject(farSpaceDrvObj);
 
 
 
